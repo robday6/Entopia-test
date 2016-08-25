@@ -1,5 +1,5 @@
 ---
-title: John Choura Jr.
+title: Entopia Test
 timezone: UTC
 collections:
   journal:
@@ -22,9 +22,9 @@ defaults:
   values:
     author: John Choura Jr.
     layout: journal
-email: hello@objectsubject.com
+email: rob.day@.live.com
 post_dirs: false
-ga: UA-22938148-6
+ga: 
 host: jchoura-mbp.local
 port: 4444
 markdown: redcarpet
