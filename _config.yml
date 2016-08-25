@@ -1,0 +1,34 @@
+---
+title: John Choura Jr.
+timezone: UTC
+collections:
+  journal:
+    title: Journal
+    output: true
+    permalink: "/journal/:path/"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  work:
+    title: Work
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: journal
+  values:
+    author: John Choura Jr.
+    layout: journal
+email: hello@objectsubject.com
+post_dirs: false
+ga: UA-22938148-6
+host: jchoura-mbp.local
+port: 4444
+markdown: redcarpet
+redcarpet:
+  extensions:
+  - smart
+  - superscript
